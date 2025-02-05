@@ -1,0 +1,100 @@
+/* TITLE */
+
+.LittleSesame {
+  display: flex;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+  background: var(--dark-blue, #005564);
+}
+
+.is-yellow {
+  background: var(--yellow, #fce757);
+}
+
+/* 01 */
+
+.box {
+  display: flex;
+  width: 416px;
+  padding: 0px 40px 20px 40px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+
+  background: var(--green, #a0d187);
+}
+
+.one {
+  display: flex;
+  width: 416px;
+  padding: 0px 40px 20px 40px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  p {
+    display: none;
+  }
+}
+
+.box.is-pink {
+  background: var(--red, #cf9697);
+  p {
+    display: flex;
+  }
+}
+
+/* 02 */
+
+.two {
+  display: flex;
+  width: 416px;
+  padding: 0px 40px 20px 40px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+
+  background: var(--green, #a0d187);
+  p {
+    display: none;
+  }
+}
+
+.box.is-green {
+  background: var(--green, #a0d187);
+  p {
+    display: flex;
+  }
+}
+
+/* 03 */
+
+.three {
+  display: flex;
+  width: 416px;
+  padding: 0px 40px 20px 40px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+
+  background: var(--green, #a0d187);
+  p {
+    display: none;
+  }
+}
+
+.box.is-blue {
+  background: var(--light-blue, #c0d9d9);
+  p {
+    display: flex;
+  }
+}
+
+i {
+  color: var(--dark-blue, #005564);
+  text-align: center;
+  font-family: "Font Awesome 6 Free";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+}
